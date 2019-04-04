@@ -1056,6 +1056,9 @@ Other:
   - Update doc for Cider manual quick start -`cider-connect`. Leiningen
     version 2.9 and Boot versions 2.8.2, ~cider-nrepl~ version 0.21.1
     (thanks to John Stevenson)
+  - Call interactive `cider-test-*` functions interactively (thanks to Timo
+    Freiberg)
+  - Change run-all-tests alias to run-project-tests (thanks to Timo Freiberg)
 **** Coffeescript
 - Improvements:
   - Added basic autocompletion (thanks to Codruț Constantin Gușoi)
@@ -1915,7 +1918,7 @@ Other:
 - Added ENSIME jump handlers (thanks to Joao Azevedo)
 **** Scheme
 - Added missing =parinfer= package declaration (thanks to Kalle Lindqvist)
-- Update install docs for Chicken 5 changes (thanks to Tim Heckman)
+- Update install docs for Chicken 5 changes (thanks to Grant Shangreaux)
 **** Semantic
 - Made it possible to exclude stickyfunc (thanks to Sylvain Benner)
 **** Shell
